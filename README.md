@@ -1,9 +1,8 @@
 <div align="center">
 
-# asdf-<YOUR TOOL> [![Build](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/build.yml/badge.svg)](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/build.yml) [![Lint](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/lint.yml/badge.svg)](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/lint.yml)
+# asdf-pnpm [![Build](https://github.com/technikhil314/asdf-pnpm/actions/workflows/build.yml/badge.svg)](https://github.com/technikhil314/asdf-pnpm/actions/workflows/build.yml) [![Lint](https://github.com/technikhil314/asdf-pnpm/actions/workflows/lint.yml/badge.svg)](https://github.com/technikhil314/asdf-pnpm/actions/workflows/lint.yml)
 
-
-[<YOUR TOOL>](<TOOL HOMEPAGE>) plugin for the [asdf version manager](https://asdf-vm.com).
+[pnpm](https://pnpm.io/) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -17,33 +16,30 @@
 
 # Dependencies
 
-- `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- `bash`, `curl`: generic POSIX utilities.
 
 # Install
 
 Plugin:
 
 ```shell
-asdf plugin add <YOUR TOOL>
-# or
-asdf plugin add <YOUR TOOL> https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>.git
+asdf plugin add pnpm https://github.com/technikhil314/asdf-pnpm.git
 ```
 
-<YOUR TOOL>:
+pnpm:
 
 ```shell
 # Show all installable versions
-asdf list-all <YOUR TOOL>
+asdf list-all pnpm
 
 # Install specific version
-asdf install <YOUR TOOL> latest
+asdf install pnpm latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global <YOUR TOOL> latest
+asdf global pnpm latest
 
-# Now <YOUR TOOL> commands are available
-<TOOL CHECK>
+# Now pnpm commands are available
+pnpm --version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
@@ -53,8 +49,8 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/technikhil314/asdf-pnpm/graphs/contributors)!
 
 # License
 
-See [LICENSE](LICENSE) © [<YOUR NAME>](https://github.com/<YOUR GITHUB USERNAME>/)
+See [LICENSE](LICENSE) © [Nikhil Mehta](https://github.com/technikhil314/)
